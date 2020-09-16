@@ -5,3 +5,11 @@
 #   So a dnd2e entity stat_collection would wrap the character stats
 #   Also manages temporary/permanent buffs/debuffs on stats
 
+
+class StatCollection:
+
+    def __init__(self):
+        pass
+
+    def append(self, stat):
+        pass
